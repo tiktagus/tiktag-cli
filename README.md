@@ -19,6 +19,9 @@
 
 ## logging
 
+### 240614 sgh
+pull into new host
+
 ### 240515 --orphan
 > make orphan branch for new proj.
 
