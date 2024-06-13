@@ -22,6 +22,17 @@
 ### 240614 sgh
 pull into new host
 
+- 官方下载页面 https://go.dev/doc/install
+- tar -C /opt/go/local -xzf go1.22.4.linux-amd64.tar.gz
+- ~/.bashrc
+```
+export GOROOT=/opt/go
+export PATH=$GOPATH/bin:/opt/go/local/go/bin:$PATH
+```
+- go version
+    + go version go1.22.4 linux/amd64
+
+
 ### 240515 --orphan
 > make orphan branch for new proj.
 
