@@ -1,6 +1,6 @@
-# TikTag
+# tiktag CLI app
 
-`TikTag` is a command-line app for preparing images for blogging, sharing or NFT-minting.
+`tiktag-cli` is a command-line app for preparing images for blogging, sharing or NFT-minting.
 
 `TikTag` is shipped as a local command-line app written in Go. This locally run app provides basic features for hosting and sharing images and files. It will depend on hosted service at [tiktag.us](https://tiktag.us) to access premium features such as minting your digital assets as NFTs.
 
@@ -54,7 +54,7 @@ The first time you run tiktag, will create a sample config file:
 ### Command (examples)
 
 1. Host a photo or file,
-   
+
    ```
    > tiktag myfilename.png
    > Success! Here is your hosted asset's URL,
@@ -62,15 +62,15 @@ The first time you run tiktag, will create a sample config file:
    ```
 
 2. Search for a stored file and retrieve it's URL,
-   
+
    ```
    > tiktag find myfilename.png
    > Success! Here is your hosted asset's URL,
    > https://s3.tikoly.com/village/563583552944996352.png
    ```
-   
+
    if your asset not found,
-   
+
    ```
    > Oops...asset not found, or run `tiktag <myfile>` to host it
    ```
@@ -103,7 +103,7 @@ List of key data objects in TikTag,
 
 * `tiktag`, command for tagging and storing an asset
   * example of tagging an asset, `tiktag myfilename.png -b s3aws`
-  * example of minting an asset, `tiktag myfilename.png -tz sui` 
+  * example of minting an asset, `tiktag myfilename.png -tz sui`
     - `tz` is initial of Chance's former/deceased co-founder, Tao Zui, in memory of his ingenuity inspiring Chance's design aesthetics)
 
 ## Roadmap
@@ -130,7 +130,7 @@ Candidate tech dependencies for making TikTag happen,
 
 * [Chance Jiang](https://github.com/chancefcc), designer
 * [Atman An](https://github.com/twinsant), lead developer
-* Ryan Sy, lead on user success 
+* Ryan Sy, lead on user success
 
 ## Licensing
 
